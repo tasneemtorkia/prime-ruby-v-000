@@ -1,14 +1,10 @@
 # Add  code here!
 def prime(num)
-  (2..(num - 1)).each do |n|
-    return false if num % n == 0
+(2..integer - 1).each do |x|
+  if (integer % x) == 0
+   return false
+  else
+   return true
   end
-  true
-end 
-
-def is_prime(num)
-  (2..(num - 1)).each do |n|
-    return false if num % n == 0
-  end
-  true
+end
 end
