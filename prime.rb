@@ -1,5 +1,5 @@
 # Add  code here!
-def prime?(number)
+def prime?(num)
  return false if num < 2
     (2..(num - 1)).each do |x|
         if (number % x) == 0
